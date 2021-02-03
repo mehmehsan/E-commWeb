@@ -4,6 +4,14 @@ import "./styles.css";
 
 export default function App() {
   const [cart, setCart] = useState(0);
+  function dropDown() {
+    var x = document.getElementById("navigation");
+    if (x.className === "navigation") {
+      x.className += " responsive";
+    } else {
+      x.className = "navigation";
+    }
+  }
 
   return (
     <div className="App">
@@ -30,7 +38,7 @@ export default function App() {
       </header>
 
       <nav>
-        <ul id="navigation">
+        <ul id="navigation" className="navigation">
           <li> All </li>
           <li className="navigationPills"> Clothes </li>
           <li className="navigationPills"> Electronics </li>
@@ -38,7 +46,10 @@ export default function App() {
           <li className="navigationPills"> Baby </li>
           <li className="navigationPills">Watches </li>
           <li className="navigationPills"> Today's Deals</li>
-          <li className="dropdownIcon"> &#9776; </li>
+          <li className="dropdownIcon" onClick={dropDown}>
+            {" "}
+            &#9776;{" "}
+          </li>
         </ul>
       </nav>
     </div>

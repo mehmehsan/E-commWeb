@@ -143,4 +143,15 @@ ul li.dropdownIcon {
     color: var(--primary-color);
     font-size: 1rem;
   }
+  ul li.dropdownIcon {
+    display: block;
+    float: right;
+    margin-right: 1rem;
+  }
+
+  ul.navigation.responsive li {
+    display: block;
+    float: none;
+    text-align: left;
+  }
 }
