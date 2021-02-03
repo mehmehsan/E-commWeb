@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Mallanna&display=swap");
+
+:root {
+  --primary-color: purple;
+  --secondary-color: #ffb20a;
+}
+
+body {
+  font-family: "Sacramento", sans-serif;
+  text-align: center;
+  display: block;
+  margin: 0rem 0rem;
+}
+.Img {
+  height: 2rem;
+  width: 2rem;
+  float: right;
+  margin: 0rem 2rem;
+}
+header {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: var(--secondary-color);
+}
+
+#name {
+  float: left;
+  margin: 0rem auto;
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+#searchBar {
+  margin: 0rem 2rem;
+}
+select {
+  height: 2rem;
+  width: 3rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+input {
+  height: 1.66rem;
+}
+#button {
+  height: 2.1rem;
+  margin: 0.3rem 0rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+div.relative {
+  position: fixed;
+  right: 2rem;
+  top: 0rem;
+  font-family: "Mallanna", sans-serif;
+  color: var(--primary-color);
+  font-size: 1rem;
+}
+
+ul {
+  font-family: "Mallanna", sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5rem;
+  overflow: hidden;
+  background-color: #333333;
+  color: white;
+}
+
+li {
+  float: left;
+  padding: 0.1rem 0.5rem;
+}
+
+li:hover {
+  background-color: #111111;
+  border: solid white 0.1rem;
+}
