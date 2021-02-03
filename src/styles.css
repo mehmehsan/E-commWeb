@@ -17,7 +17,6 @@ body {
   height: 2rem;
   width: 2rem;
   float: right;
-  margin: 0rem 2rem;
 }
 header {
   display: block;
@@ -33,12 +32,9 @@ header {
   font-size: 2rem;
 }
 
-#searchBar {
-  margin: 0rem 2rem;
-}
 select {
   height: 2rem;
-  width: 3rem;
+  width: 2.5rem;
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }
@@ -64,19 +60,87 @@ div.relative {
 ul {
   font-family: "Mallanna", sans-serif;
   list-style-type: none;
-  margin: 0;
+  margin: 0rem;
   padding: 0.5rem;
   overflow: hidden;
   background-color: #333333;
   color: white;
 }
 
-li {
+ul li {
   float: left;
   padding: 0.1rem 0.5rem;
+  display: block;
 }
 
 li:hover {
   background-color: #111111;
   border: solid white 0.1rem;
+}
+
+ul li.dropdownIcon {
+  display: none;
+}
+
+/**** Mobile ****/
+
+@media (max-width: 680px) {
+  ul {
+    width: 100%;
+  }
+
+  ul li.navigationPills {
+    display: none;
+  }
+
+  .Img {
+    height: 1.45rem;
+    width: 1.45rem;
+    position: fixed;
+    right: rem;
+    top: 0.7rem;
+  }
+  header {
+    display: block;
+    width: 100%;
+    padding: 0.2rem;
+    background-color: var(--secondary-color);
+  }
+
+  #name {
+    float: left;
+    margin: 0.2rem 0.04rem;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+  }
+
+  #searchBar {
+    margin: 0rem 0.007rem;
+  }
+  select {
+    height: 1.4rem;
+    width: 2rem;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+  }
+  input {
+    height: 1.09rem;
+    width: 5rem;
+  }
+  #button {
+    height: 1.56rem;
+    width: 2rem;
+    margin: 0.3rem 0rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+
+  div.relative {
+    position: fixed;
+    right: 1.2rem;
+    top: 0rem;
+    font-family: "Mallanna", sans-serif;
+    color: var(--primary-color);
+    font-size: 1rem;
+  }
 }

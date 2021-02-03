@@ -1,6 +1,6 @@
-import "./styles.css";
 import React, { useState } from "react";
 import { ReactComponent as Img } from "./shopping-cart.svg";
+import "./styles.css";
 
 export default function App() {
   const [cart, setCart] = useState(0);
@@ -28,15 +28,17 @@ export default function App() {
           <strong>{cart}</strong>
         </div>
       </header>
-      <nav id="navigation">
-        <ul id="navigationPills">
+
+      <nav>
+        <ul id="navigation">
           <li> All </li>
-          <li> Clothes </li>
-          <li> Electronics </li>
-          <li> Books </li>
-          <li> Baby </li>
-          <li> Watches </li>
-          <li> Today's Deals</li>
+          <li className="navigationPills"> Clothes </li>
+          <li className="navigationPills"> Electronics </li>
+          <li className="navigationPills"> Books </li>
+          <li className="navigationPills"> Baby </li>
+          <li className="navigationPills">Watches </li>
+          <li className="navigationPills"> Today's Deals</li>
+          <li className="dropdownIcon"> &#9776; </li>
         </ul>
       </nav>
     </div>
