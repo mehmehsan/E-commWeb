@@ -145,8 +145,11 @@ ul li.dropdownIcon {
   }
   ul li.dropdownIcon {
     display: block;
-    float: right;
+
     margin-right: 1rem;
+    position: fixed;
+    top: 3rem;
+    right: 0rem;
   }
 
   ul.navigation.responsive li {
