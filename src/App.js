@@ -81,6 +81,9 @@ export default function App() {
         src=" https://m.media-amazon.com/images/G/31/img21/Fashion/Event/V_Day_Flip/AssociateCentral/2148x588_AFVDay.jpg"
         alt="loading"
       />
+      <button id="amznPage">
+        <a href="https://amzn.to/2LfWK5c"> View Deals </a>
+      </button>
       <br />
       <div id="item1">
         <img

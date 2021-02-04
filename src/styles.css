@@ -95,6 +95,15 @@ ul li.dropdownIcon {
   position: relative;
   top: 1rem;
 }
+#amznPage {
+  position: relative;
+  top: 5rem;
+  left: -1.1rem;
+  padding: 1rem 1rem;
+  background-color: pink;
+  font-family: "Mallanna", sans-serif;
+  font-size: 3rem;
+}
 
 #item1 {
   position: absolute;
@@ -221,6 +230,14 @@ a {
     height: 7rem;
     width: 20rem;
     position: relative;
+  }
+  #amznPage {
+    position: relative;
+    top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: pink;
+    font-family: "Mallanna", sans-serif;
+    font-size: 2rem;
   }
   #item1 {
     position: relative;
