@@ -125,6 +125,7 @@ export default function App() {
       </button>
       <br />
 
+      <br />
       <img
         className="event"
         src=" https://m.media-amazon.com/images/G/31/img21/Fashion/Event/V_Day_Flip/AssociateCentral/2148x588_AFVDay.jpg"
@@ -133,7 +134,7 @@ export default function App() {
       <button id="amznPage">
         <a href="https://amzn.to/2LfWK5c"> View Deals </a>
       </button>
-      <br />
+
       <div id="item1">
         <img
           className="watches"
