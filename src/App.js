@@ -1,6 +1,29 @@
 import React, { useState } from "react";
 import { ReactComponent as Img } from "./shopping-cart.svg";
 import "./styles.css";
+const allProducts = {
+  // ALL: [
+  //   "MARICO : 9/10 ",
+  //   "ITC : 8/10 ",
+  //   "INFOSYS : 7/10 ",
+  //   "DIVISLAB : 6/10 ",
+  //   "RELAXO : 5/10 "
+  // ],
+
+  Fashion: ["MARICO ", "ITC "],
+
+  Electronics: "INFOSYS",
+
+  Books: "DIVISLAB",
+
+  Baby: "HDFC",
+
+  Watches: "INDRAPRASTHA GAS",
+
+  Others: "RELAXO"
+};
+
+var setProducts = Object.keys(allProducts);
 
 export default function App() {
   const [cart, setCart] = useState(0);
@@ -20,7 +43,7 @@ export default function App() {
         <span id="searchBar">
           <select>
             <option> All </option>
-            <option> Clothes </option>
+            <option> Fashion </option>
             <option> Electronics </option>
             <option> Books </option>
             <option> Baby </option>
@@ -40,7 +63,7 @@ export default function App() {
       <nav>
         <ul id="navigation" className="navigation">
           <li> All </li>
-          <li className="navigationPills"> Clothes </li>
+          <li className="navigationPills"> Fashion </li>
           <li className="navigationPills"> Electronics </li>
           <li className="navigationPills"> Books </li>
           <li className="navigationPills"> Baby </li>
@@ -52,6 +75,70 @@ export default function App() {
           </li>
         </ul>
       </nav>
+
+      <img
+        className="event"
+        src=" https://m.media-amazon.com/images/G/31/img21/Fashion/Event/V_Day_Flip/AssociateCentral/2148x588_AFVDay.jpg"
+        alt="loading"
+        width="300"
+        height="100"
+      />
+      <br />
+      <div id="item1">
+        <img
+          className="watches"
+          src="https://images-na.ssl-images-amazon.com/images/I/814d7DPCPfL._UL1500_.jpg"
+          alt="loading"
+          width="30"
+          height="50"
+        />
+        <button>
+          {" "}
+          <a href="https://amzn.to/2YKtMxq"> Shop Now </a>
+        </button>
+      </div>
+
+      <div id="item2">
+        <img
+          className="jewellery"
+          src="https://m.media-amazon.com/images/I/51viOs7ddqL._SL250_.jpg"
+          alt="loading"
+          width="30"
+          height="50"
+        />
+        <button>
+          {" "}
+          <a href="https://amzn.to/36DzaHi"> Shop Now </a>
+        </button>
+      </div>
+
+      <div id="item3">
+        <img
+          className="shirts"
+          src="https://images-na.ssl-images-amazon.com/images/I/61xXzmOiS4L._UL1467_.jpg"
+          alt="loading"
+          width="30"
+          height="50"
+        />
+        <button>
+          {" "}
+          <a href="https://amzn.to/3rcZIXE"> Shop Now </a>
+        </button>
+      </div>
+
+      <div id="item4">
+        <img
+          className="women"
+          src="https://images-na.ssl-images-amazon.com/images/I/61A7Nn85EJL._UL1500_.jpg"
+          alt="loading"
+          width="30"
+          height="50"
+        />
+        <button>
+          {" "}
+          <a href=" https://amzn.to/39LrCE2"> Shop Now </a>
+        </button>
+      </div>
     </div>
   );
 }
