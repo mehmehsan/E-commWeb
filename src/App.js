@@ -90,7 +90,7 @@ export default function App() {
             <a href="https://amzn.to/39Ka23s">Watches</a>
           </li>
           <li className="navigationPills">
-            <a href="https://amzn.to/3tr57Mu">Today's Deals</a>
+            <a href="https://amzn.to/3oOfIxF">Today's Deals</a>
           </li>
           <li className="dropdownIcon" onClick={dropDown}>
             &#9776;
