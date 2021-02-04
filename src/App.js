@@ -30,7 +30,7 @@ var setProducts = Object.keys(allProducts);
 
 export default function App() {
   const [fnt, setFnt] = useState();
-  const [cnt, setCnt] = useState();
+  const [cnt, setCnt] = useState(0);
   const [bck, setBck] = useState();
   const [txtalign, setTxtalign] = useState("Normal mode");
   const [cart, setCart] = useState(0);
