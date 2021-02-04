@@ -82,6 +82,11 @@ ul li.dropdownIcon {
   display: none;
 }
 
+.event {
+  height: 20rem;
+  width: 80rem;
+  position: relative;
+}
 /**** Mobile ****/
 
 @media (max-width: 600px) {
@@ -157,5 +162,10 @@ ul li.dropdownIcon {
     display: block;
     float: none;
     text-align: left;
+  }
+  .event {
+    height: 5rem;
+    width: 20rem;
+    position: relative;
   }
 }
