@@ -68,16 +68,32 @@ export default function App() {
 
       <nav>
         <ul id="navigation" className="navigation">
-          <li> All </li>
-          <li className="navigationPills"> Fashion </li>
-          <li className="navigationPills"> Electronics </li>
-          <li className="navigationPills"> Books </li>
-          <li className="navigationPills"> Baby </li>
-          <li className="navigationPills">Watches </li>
-          <li className="navigationPills"> Today's Deals</li>
+          <li>
+            <a href="https://amzn.to/2LfWK5c"> All </a>
+          </li>
+          <li className="navigationPills">
+            <a href="https://amzn.to/3cHjhDi"> Fashion </a>
+          </li>
+          <li className="navigationPills">
+            <a href="https://amzn.to/3cD031L"> Electronics </a>
+          </li>
+          <li className="navigationPills">
+            <a href="https://amzn.to/3q1XQAZ"> Consumer Goods</a>
+          </li>
+          <li className="navigationPills">
+            <a href="https://amzn.to/3pQVp3N"> Footwear </a>
+          </li>
+          <li className="navigationPills">
+            <a href="https://amzn.to/3tuOe3x"> Handbags</a>
+          </li>
+          <li className="navigationPills">
+            <a href="https://amzn.to/39Ka23s">Watches</a>
+          </li>
+          <li className="navigationPills">
+            <a href="https://amzn.to/3tr57Mu">Today's Deals</a>
+          </li>
           <li className="dropdownIcon" onClick={dropDown}>
-            {" "}
-            &#9776;{" "}
+            &#9776;
           </li>
         </ul>
       </nav>
