@@ -87,6 +87,31 @@ ul li.dropdownIcon {
   width: 80rem;
   position: relative;
 }
+
+#item1 {
+  position: absolute;
+  top: 12rem;
+  left: 3rem;
+}
+#item2 {
+  position: absolute;
+  top: 12rem;
+  right: 3rem;
+}
+#item3 {
+  position: absolute;
+  top: 18rem;
+  left: 3rem;
+}
+#item4 {
+  position: absolute;
+  top: 18rem;
+  right: 3rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
 /**** Mobile ****/
 
 @media (max-width: 600px) {

@@ -92,6 +92,7 @@ export default function App() {
           width="30"
           height="50"
         />
+        <br />
         <button>
           {" "}
           <a href="https://amzn.to/2YKtMxq"> Shop Now </a>
@@ -106,6 +107,7 @@ export default function App() {
           width="30"
           height="50"
         />
+        <br />
         <button>
           {" "}
           <a href="https://amzn.to/36DzaHi"> Shop Now </a>
@@ -120,6 +122,7 @@ export default function App() {
           width="30"
           height="50"
         />
+        <br />
         <button>
           {" "}
           <a href="https://amzn.to/3rcZIXE"> Shop Now </a>
@@ -134,6 +137,7 @@ export default function App() {
           width="30"
           height="50"
         />
+        <br />
         <button>
           {" "}
           <a href=" https://amzn.to/39LrCE2"> Shop Now </a>
