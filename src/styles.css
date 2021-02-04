@@ -216,34 +216,34 @@ a {
     position: relative;
   }
   #item1 {
-    position: absolute;
-    top: 15rem;
-    left: 3rem;
+    position: relative;
+    top: 2rem;
+    left: -6.5rem;
   }
   #item2 {
-    position: absolute;
-    top: 15rem;
-    right: 3rem;
+    position: relative;
+    top: -5rem;
+    right: -6.5rem;
   }
   #item3 {
-    position: absolute;
-    top: 25rem;
-    left: 3rem;
+    position: relative;
+    top: -3rem;
+    left: -6.5rem;
   }
   #item4 {
-    position: absolute;
-    top: 25rem;
-    right: 3rem;
+    position: relative;
+    top: -10rem;
+    right: -6.5rem;
   }
   #item5 {
-    position: absolute;
-    top: 35rem;
-    left: 3rem;
+    position: relative;
+    top: -8rem;
+    left: -6.5rem;
   }
   #item6 {
-    position: absolute;
-    top: 35rem;
-    right: 3rem;
+    position: relative;
+    top: -15rem;
+    right: -6.5rem;
   }
   .watches,
   .jewellery,
