@@ -84,6 +84,9 @@ ul {
   background-color: #333333;
   color: white;
 }
+ul a {
+  color: white;
+}
 
 ul li {
   float: left;
