@@ -34,6 +34,7 @@ export default function App() {
   const [bck, setBck] = useState();
   const [txtalign, setTxtalign] = useState("Normal mode");
   const [cart, setCart] = useState(0);
+
   function dropDown() {
     var x = document.getElementById("navigation");
     if (x.className === "navigation") {
@@ -122,6 +123,7 @@ export default function App() {
       >
         <button id="innerSwitch"></button>{" "}
       </button>
+      <br />
 
       <img
         className="event"
