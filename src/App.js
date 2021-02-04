@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { ReactComponent as Img } from "./shopping-cart.svg";
 import "./styles.css";
+
+var cntt = 0;
+
 const allProducts = {
   // ALL: [
   //   "MARICO : 9/10 ",
@@ -26,6 +29,10 @@ const allProducts = {
 var setProducts = Object.keys(allProducts);
 
 export default function App() {
+  const [fnt, setFnt] = useState();
+  const [cnt, setCnt] = useState();
+  const [bck, setBck] = useState();
+  const [txtalign, setTxtalign] = useState("Normal mode");
   const [cart, setCart] = useState(0);
   function dropDown() {
     var x = document.getElementById("navigation");
@@ -35,9 +42,20 @@ export default function App() {
       x.className = "navigation";
     }
   }
-
+  function darkMode() {
+    if (cnt % 2 !== 0) {
+      setBck("white");
+      setFnt("black");
+      setTxtalign("right");
+    } else {
+      setBck("black");
+      setFnt("white");
+      setTxtalign("left");
+    }
+    setCnt(cntt++);
+  }
   return (
-    <div className="App">
+    <div className="App" style={{ background: bck, color: fnt }}>
       <header className="header">
         <img
           id="symbol"
@@ -97,6 +115,13 @@ export default function App() {
           </li>
         </ul>
       </nav>
+      <button
+        id="outerSwitch"
+        style={{ textAlign: txtalign }}
+        onClick={darkMode}
+      >
+        <button id="innerSwitch"></button>{" "}
+      </button>
 
       <img
         className="event"
