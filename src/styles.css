@@ -197,7 +197,7 @@ a {
   }
   #symbol {
     position: relative;
-    left: 0.05rem;
+    left: -1rem;
     width: 3rem;
   }
 
