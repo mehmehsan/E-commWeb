@@ -171,6 +171,9 @@ a {
 .watches {
   width: 7rem;
 }
+button {
+  border-radius: 0.5rem;
+}
 /**** Mobile ****/
 
 @media (max-width: 600px) {
