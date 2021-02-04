@@ -158,7 +158,7 @@ export default function App() {
       </div>
       <div id="item6">
         <img
-          className="salwaar"
+          className="purse"
           src="https://images-na.ssl-images-amazon.com/images/I/719r0MVQ9IL._UL1500_.jpg"
           alt="loading"
           width="30"

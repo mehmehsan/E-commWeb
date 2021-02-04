@@ -101,28 +101,38 @@ ul li.dropdownIcon {
 }
 #item3 {
   position: absolute;
-  top: 38rem;
+  top: 45rem;
   left: 10rem;
 }
 #item4 {
   position: absolute;
-  top: 38rem;
+  top: 45rem;
   right: 10rem;
 }
 #item5 {
   position: absolute;
-  top: 46rem;
+  top: 60rem;
   left: 10rem;
 }
 #item6 {
   position: absolute;
-  top: 46rem;
+  top: 60rem;
   right: 10rem;
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+.watches,
+.jewellery,
+.shirts,
+.women,
+.salwaar,
+.purse {
+  height: 10rem;
+  width: 10rem;
 }
 /**** Mobile ****/
 
@@ -207,22 +217,41 @@ a {
   }
   #item1 {
     position: absolute;
-    top: 12rem;
+    top: 15rem;
     left: 3rem;
   }
   #item2 {
     position: absolute;
-    top: 12rem;
+    top: 15rem;
     right: 3rem;
   }
   #item3 {
     position: absolute;
-    top: 18rem;
+    top: 25rem;
     left: 3rem;
   }
   #item4 {
     position: absolute;
-    top: 18rem;
+    top: 25rem;
     right: 3rem;
+  }
+  #item5 {
+    position: absolute;
+    top: 35rem;
+    left: 3rem;
+  }
+  #item6 {
+    position: absolute;
+    top: 35rem;
+    right: 3rem;
+  }
+  .watches,
+  .jewellery,
+  .shirts,
+  .women,
+  .salwaar,
+  .purse {
+    height: 5rem;
+    width: 5rem;
   }
 }
