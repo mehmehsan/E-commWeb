@@ -28,10 +28,15 @@ header {
 }
 
 #name {
-  float: left;
-  margin: 0rem auto;
+  position: relative;
+  left: -22rem;
+  top: -1.2rem;
   color: var(--primary-color);
   font-size: 2rem;
+}
+#symbol {
+  position: relative;
+  left: -24rem;
 }
 
 select {
@@ -40,11 +45,17 @@ select {
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
   outline: none;
+  position: relative;
+  left: -7rem;
+  top: -1.2rem;
 }
 input {
   height: 2.1rem;
   width: 18rem;
   outline: none;
+  position: relative;
+  left: -7rem;
+  top: -1.2rem;
 }
 #button {
   height: 2.38rem;

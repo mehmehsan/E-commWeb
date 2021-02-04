@@ -39,6 +39,12 @@ export default function App() {
   return (
     <div className="App">
       <header className="header">
+        <img
+          id="symbol"
+          src="https://media.tenor.com/images/3cb35d3e2cd245a3322923c4eb54c0bf/tenor.gif"
+          alt="loading"
+          width="100rem"
+        />
         <span id="name"> Flanbieuto</span>
         <span id="searchBar">
           <select>
