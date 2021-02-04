@@ -16,7 +16,9 @@ body {
 .Img {
   height: 2rem;
   width: 2rem;
-  float: right;
+  position: absolute;
+  top: 0.7rem;
+  right: 1.4rem;
 }
 header {
   display: block;
@@ -49,7 +51,7 @@ input {
 }
 
 div.relative {
-  position: fixed;
+  position: absolute;
   right: 2rem;
   top: 0rem;
   font-family: "Mallanna", sans-serif;
@@ -148,8 +150,8 @@ a {
   .Img {
     height: 1.45rem;
     width: 1.45rem;
-    position: relative;
-    right: 1rem;
+    position: absolute;
+    right: 0.09rem;
     top: 0.5rem;
   }
   header {
@@ -189,9 +191,9 @@ a {
   }
 
   div.relative {
-    position: fixed;
-    right: 1.2rem;
-    top: 0rem;
+    position: absolute;
+    right: 0.45rem;
+    top: -0.2rem;
     font-family: "Mallanna", sans-serif;
     color: var(--primary-color);
     font-size: 1rem;
@@ -200,8 +202,8 @@ a {
     display: block;
 
     margin-right: 1rem;
-    position: fixed;
-    top: 3rem;
+    position: absolute;
+    top: 3.4rem;
     right: 0.7rem;
   }
 
