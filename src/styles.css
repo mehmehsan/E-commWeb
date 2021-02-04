@@ -86,28 +86,40 @@ ul li.dropdownIcon {
   height: 20rem;
   width: 80rem;
   position: relative;
+  top: 1rem;
 }
 
 #item1 {
   position: absolute;
-  top: 12rem;
-  left: 3rem;
+  top: 30rem;
+  left: 10rem;
 }
 #item2 {
   position: absolute;
-  top: 12rem;
-  right: 3rem;
+  top: 30rem;
+  right: 10rem;
 }
 #item3 {
   position: absolute;
-  top: 18rem;
-  left: 3rem;
+  top: 38rem;
+  left: 10rem;
 }
 #item4 {
   position: absolute;
-  top: 18rem;
-  right: 3rem;
+  top: 38rem;
+  right: 10rem;
 }
+#item5 {
+  position: absolute;
+  top: 46rem;
+  left: 10rem;
+}
+#item6 {
+  position: absolute;
+  top: 46rem;
+  right: 10rem;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -192,5 +204,25 @@ a {
     height: 5rem;
     width: 20rem;
     position: relative;
+  }
+  #item1 {
+    position: absolute;
+    top: 12rem;
+    left: 3rem;
+  }
+  #item2 {
+    position: absolute;
+    top: 12rem;
+    right: 3rem;
+  }
+  #item3 {
+    position: absolute;
+    top: 18rem;
+    left: 3rem;
+  }
+  #item4 {
+    position: absolute;
+    top: 18rem;
+    right: 3rem;
   }
 }

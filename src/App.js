@@ -80,8 +80,6 @@ export default function App() {
         className="event"
         src=" https://m.media-amazon.com/images/G/31/img21/Fashion/Event/V_Day_Flip/AssociateCentral/2148x588_AFVDay.jpg"
         alt="loading"
-        width="300"
-        height="100"
       />
       <br />
       <div id="item1">
@@ -140,7 +138,36 @@ export default function App() {
         <br />
         <button>
           {" "}
-          <a href=" https://amzn.to/39LrCE2"> Shop Now </a>
+          <a href="https://amzn.to/39LrCE2"> Shop Now </a>
+        </button>
+      </div>
+
+      <div id="item5">
+        <img
+          className="salwaar"
+          src="https://images-na.ssl-images-amazon.com/images/I/81KgIYAiZzL._UL1500_.jpg"
+          alt="loading"
+          width="30"
+          height="50"
+        />
+        <br />
+        <button>
+          {" "}
+          <a href="https://amzn.to/3axWLdp"> Shop Now </a>
+        </button>
+      </div>
+      <div id="item6">
+        <img
+          className="salwaar"
+          src="https://images-na.ssl-images-amazon.com/images/I/719r0MVQ9IL._UL1500_.jpg"
+          alt="loading"
+          width="30"
+          height="50"
+        />
+        <br />
+        <button>
+          {" "}
+          <a href="https://amzn.to/3rrbVbr"> Shop Now </a>
         </button>
       </div>
     </div>
