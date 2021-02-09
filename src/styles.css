@@ -299,32 +299,56 @@ button {
   #item1 {
     position: relative;
     top: 2rem;
-    left: -6.5rem;
+    left: 1rem;
+    border: solid pink;
+    width: 7rem;
+    padding: 0.3rem 0.3rem;
+    border-radius: 1rem;
   }
   #item2 {
     position: relative;
-    top: -6.6rem;
-    right: -6.5rem;
+    top: -7.4rem;
+    right: -10rem;
+    border: solid pink;
+    width: 7rem;
+    padding: 0.3rem 0.3rem;
+    border-radius: 1rem;
   }
   #item3 {
     position: relative;
     top: -3rem;
-    left: -6.5rem;
+    left: 1rem;
+    border: solid pink;
+    width: 7rem;
+    padding: 0.3rem 0.3rem;
+    border-radius: 1rem;
   }
   #item4 {
     position: relative;
-    top: -11.6rem;
-    right: -6.5rem;
+    top: -12.5rem;
+    right: -10rem;
+    border: solid pink;
+    width: 7rem;
+    padding: 0.3rem 0.3rem;
+    border-radius: 1rem;
   }
   #item5 {
     position: relative;
     top: -8rem;
-    left: -6.5rem;
+    left: 1rem;
+    border: solid pink;
+    width: 7rem;
+    padding: 0.3rem 0.3rem;
+    border-radius: 1rem;
   }
   #item6 {
     position: relative;
-    top: -16.5rem;
-    right: -6.5rem;
+    top: -17.4rem;
+    right: -10rem;
+    border: solid pink;
+    width: 7rem;
+    padding: 0.3rem 0.3rem;
+    border-radius: 1rem;
   }
   .watches,
   .jewellery,
