@@ -35,6 +35,13 @@ export default function App() {
   const [txtalign, setTxtalign] = useState("Normal mode");
   const [cart, setCart] = useState(0);
 
+  const [scont, setScount] = useState(0);
+  const [jcont, setJcount] = useState(0);
+  const [pcont, setPcount] = useState(0);
+  const [wcont, setWcount] = useState(0);
+  const [wocont, setWocount] = useState(0);
+  const [sacont, setSacount] = useState(0);
+
   function dropDown() {
     var x = document.getElementById("navigation");
     if (x.className === "navigation") {
@@ -58,7 +65,12 @@ export default function App() {
   }
 
   function cartHandler(e) {
-    console.log(e.target.id);
+    if (e.target.id === "watch") setWcount(wcont + 1);
+    else if (e.target.id === "jewel") setJcount(jcont + 1);
+    else if (e.target.id === "shirts") setScount(scont + 1);
+    else if (e.target.id === "women") setWocount(wocont + 1);
+    else if (e.target.id === "salwaar") setSacount(sacont + 1);
+    else if (e.target.id === "purse") setPcount(pcont + 1);
     setCart(cart + 1);
   }
   function dealHandler() {}
@@ -157,8 +169,7 @@ export default function App() {
         </button>
         <br />
         <button id="watch" onClick={cartHandler}>
-          {" "}
-          Add to cart
+          Add to cart <div>{wcont} </div>
         </button>
       </div>
       <div id="item2">
@@ -176,8 +187,7 @@ export default function App() {
         </button>
         <br />
         <button onClick={cartHandler} id="jewel">
-          {" "}
-          Add to cart
+          Add to cart<div>{jcont} </div>
         </button>
       </div>
       <div id="item3">
@@ -195,8 +205,7 @@ export default function App() {
         </button>
         <br />
         <button onClick={cartHandler} id="shirts">
-          {" "}
-          Add to cart
+          Add to cart<div>{scont} </div>
         </button>
       </div>
       <div id="item4">
@@ -214,7 +223,7 @@ export default function App() {
         </button>
         <br />
         <button id="women" onClick={cartHandler}>
-          Add to cart
+          Add to cart <div>{wocont} </div>
         </button>
       </div>
       <div id="item5">
@@ -231,7 +240,9 @@ export default function App() {
           <a href="https://amzn.to/3axWLdp"> Shop Now </a>
         </button>
         <br />
-        <button onClick={cartHandler}> Add to cart</button>
+        <button onClick={cartHandler} id="salwaar">
+          Add to cart<div>{sacont} </div>
+        </button>
       </div>
       <div id="item6">
         <img
@@ -248,7 +259,7 @@ export default function App() {
         </button>
         <br />
         <button onClick={cartHandler} id="purse">
-          Add to cart
+          Add to cart <div>{pcont} </div>
         </button>
       </div>
       <small style={{ display: "none" }}>
