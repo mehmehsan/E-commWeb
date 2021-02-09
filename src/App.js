@@ -57,7 +57,8 @@ export default function App() {
     setCnt(cntt++);
   }
 
-  function cartHandler() {
+  function cartHandler(e) {
+    console.log(e.target.id);
     setCart(cart + 1);
   }
   function dealHandler() {}
@@ -155,7 +156,10 @@ export default function App() {
           <a href="https://amzn.to/2YKtMxq"> Shop Now </a>
         </button>
         <br />
-        <button onClick={cartHandler}> Add to cart</button>
+        <button id="watch" onClick={cartHandler}>
+          {" "}
+          Add to cart
+        </button>
       </div>
       <div id="item2">
         <img
@@ -171,7 +175,10 @@ export default function App() {
           <a href="https://amzn.to/36DzaHi"> Shop Now </a>
         </button>
         <br />
-        <button onClick={cartHandler}> Add to cart</button>
+        <button onClick={cartHandler} id="jewel">
+          {" "}
+          Add to cart
+        </button>
       </div>
       <div id="item3">
         <img
@@ -187,7 +194,10 @@ export default function App() {
           <a href="https://amzn.to/3rcZIXE"> Shop Now </a>
         </button>
         <br />
-        <button onClick={cartHandler}> Add to cart</button>
+        <button onClick={cartHandler} id="shirts">
+          {" "}
+          Add to cart
+        </button>
       </div>
       <div id="item4">
         <img
@@ -203,7 +213,9 @@ export default function App() {
           <a href="https://amzn.to/39LrCE2"> Shop Now </a>
         </button>
         <br />
-        <button onClick={cartHandler}> Add to cart</button>
+        <button id="women" onClick={cartHandler}>
+          Add to cart
+        </button>
       </div>
       <div id="item5">
         <img
@@ -235,7 +247,9 @@ export default function App() {
           <a href="https://amzn.to/3rrbVbr"> Shop Now </a>
         </button>
         <br />
-        <button onClick={cartHandler}> Add to cart</button>
+        <button onClick={cartHandler} id="purse">
+          Add to cart
+        </button>
       </div>
       <small style={{ display: "none" }}>
         {" "}
