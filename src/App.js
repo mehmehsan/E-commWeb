@@ -56,7 +56,7 @@ export default function App() {
     setCnt(cntt++);
   }
   return (
-    <div className="App" style={{ background: bck, color: fnt }}>
+    <div className="App" style={{ color: fnt }}>
       <header className="header">
         <img
           id="symbol"
@@ -84,7 +84,6 @@ export default function App() {
           <strong>{cart}</strong>
         </div>
       </header>
-
       <nav>
         <ul id="navigation" className="navigation">
           <li>
@@ -124,7 +123,6 @@ export default function App() {
         <button id="innerSwitch"></button>{" "}
       </button>
       <br />
-
       <br />
       <img
         className="event"
@@ -134,7 +132,6 @@ export default function App() {
       <button id="amznPage">
         <a href="https://amzn.to/2LfWK5c"> View Deals </a>
       </button>
-
       <div id="item1">
         <img
           className="watches"
@@ -149,7 +146,6 @@ export default function App() {
           <a href="https://amzn.to/2YKtMxq"> Shop Now </a>
         </button>
       </div>
-
       <div id="item2">
         <img
           className="jewellery"
@@ -164,7 +160,6 @@ export default function App() {
           <a href="https://amzn.to/36DzaHi"> Shop Now </a>
         </button>
       </div>
-
       <div id="item3">
         <img
           className="shirts"
@@ -179,7 +174,6 @@ export default function App() {
           <a href="https://amzn.to/3rcZIXE"> Shop Now </a>
         </button>
       </div>
-
       <div id="item4">
         <img
           className="women"
@@ -194,7 +188,6 @@ export default function App() {
           <a href="https://amzn.to/39LrCE2"> Shop Now </a>
         </button>
       </div>
-
       <div id="item5">
         <img
           className="salwaar"
@@ -223,6 +216,7 @@ export default function App() {
           <a href="https://amzn.to/3rrbVbr"> Shop Now </a>
         </button>
       </div>
+      {(document.body.style.backgroundColor = bck)}
     </div>
   );
 }
