@@ -60,6 +60,8 @@ export default function App() {
   function cartHandler() {
     setCart(cart + 1);
   }
+  function dealHandler() {}
+
   return (
     <div className="App" style={{ color: fnt }}>
       <header className="header">
@@ -68,6 +70,7 @@ export default function App() {
           src="https://media.tenor.com/images/3cb35d3e2cd245a3322923c4eb54c0bf/tenor.gif"
           alt="loading"
           width="100rem"
+          onClick={dealHandler}
         />
         <span id="name"> Flanbieuto</span>
         <span id="searchBar">
