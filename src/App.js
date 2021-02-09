@@ -30,7 +30,7 @@ var setProducts = Object.keys(allProducts);
 
 export default function App() {
   const [fnt, setFnt] = useState();
-  const [cnt, setCnt] = useState(0);
+  const [cnt, setCnt] = useState();
   const [bck, setBck] = useState();
   const [txtalign, setTxtalign] = useState("Normal mode");
   const [cart, setCart] = useState(0);
@@ -45,12 +45,12 @@ export default function App() {
   }
   function darkMode() {
     if (cnt % 2 !== 0) {
-      setBck("white");
-      setFnt("black");
-      setTxtalign("right");
-    } else {
       setBck("black");
       setFnt("white");
+      setTxtalign("right");
+    } else {
+      setBck("white");
+      setFnt("black");
       setTxtalign("left");
     }
     setCnt(cntt++);
@@ -216,7 +216,10 @@ export default function App() {
           <a href="https://amzn.to/3rrbVbr"> Shop Now </a>
         </button>
       </div>
-      {(document.body.style.backgroundColor = bck)}
+      <small style={{ display: "none" }}>
+        {" "}
+        {(document.body.style.backgroundColor = bck)}{" "}
+      </small>
     </div>
   );
 }
