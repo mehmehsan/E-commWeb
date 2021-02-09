@@ -291,7 +291,7 @@ button {
   #amznPage {
     position: relative;
     top: 1rem;
-    left: -0rem;
+    left: 0rem;
     padding: 0.5rem 1rem;
     background-color: pink;
     font-family: "Mallanna", sans-serif;
@@ -309,7 +309,7 @@ button {
   #item2 {
     position: relative;
     top: -8.4rem;
-    right: -10rem;
+    right: -12.5rem;
     border: solid pink;
     width: 7rem;
     padding: 0.3rem 0.3rem;
@@ -327,7 +327,7 @@ button {
   #item4 {
     position: relative;
     top: -13.35rem;
-    right: -10rem;
+    right: -12.5rem;
     border: solid pink;
     width: 7rem;
     padding: 0.3rem 0.3rem;
@@ -345,7 +345,7 @@ button {
   #item6 {
     position: relative;
     top: -18.3rem;
-    right: -10rem;
+    right: -12.5rem;
     border: solid pink;
     width: 7rem;
     padding: 0.3rem 0.3rem;
