@@ -176,6 +176,7 @@ button {
   border-radius: 0.5rem;
   cursor: "pointer";
   outline: none;
+  background: lightpink;
 }
 
 #outerSwitch {
@@ -307,7 +308,7 @@ button {
   }
   #item2 {
     position: relative;
-    top: -7.4rem;
+    top: -8.4rem;
     right: -10rem;
     border: solid pink;
     width: 7rem;
@@ -325,7 +326,7 @@ button {
   }
   #item4 {
     position: relative;
-    top: -12.5rem;
+    top: -13.35rem;
     right: -10rem;
     border: solid pink;
     width: 7rem;
@@ -343,7 +344,7 @@ button {
   }
   #item6 {
     position: relative;
-    top: -17.4rem;
+    top: -18.3rem;
     right: -10rem;
     border: solid pink;
     width: 7rem;

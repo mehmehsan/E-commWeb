@@ -168,7 +168,12 @@ export default function App() {
           <a href="https://amzn.to/2YKtMxq"> Shop Now </a>
         </button>
         <br />
-        <button id="watch" onClick={cartHandler}>
+        <button
+          onClick={() => {
+            setWcount(wcont + 1);
+            setCart(cart + 1);
+          }}
+        >
           Add to cart <div>{wcont} </div>
         </button>
       </div>
@@ -186,7 +191,12 @@ export default function App() {
           <a href="https://amzn.to/36DzaHi"> Shop Now </a>
         </button>
         <br />
-        <button onClick={cartHandler} id="jewel">
+        <button
+          onClick={() => {
+            setJcount(jcont + 1);
+            setCart(cart + 1);
+          }}
+        >
           Add to cart<div>{jcont} </div>
         </button>
       </div>
@@ -204,7 +214,12 @@ export default function App() {
           <a href="https://amzn.to/3rcZIXE"> Shop Now </a>
         </button>
         <br />
-        <button onClick={cartHandler} id="shirts">
+        <button
+          onClick={() => {
+            setScount(scont + 1);
+            setCart(cart + 1);
+          }}
+        >
           Add to cart<div>{scont} </div>
         </button>
       </div>
@@ -218,11 +233,15 @@ export default function App() {
         />
         <br />
         <button>
-          {" "}
           <a href="https://amzn.to/39LrCE2"> Shop Now </a>
         </button>
         <br />
-        <button id="women" onClick={cartHandler}>
+        <button
+          onClick={() => {
+            setWocount(wocont + 1);
+            setCart(cart + 1);
+          }}
+        >
           Add to cart <div>{wocont} </div>
         </button>
       </div>
@@ -236,11 +255,15 @@ export default function App() {
         />
         <br />
         <button>
-          {" "}
           <a href="https://amzn.to/3axWLdp"> Shop Now </a>
         </button>
         <br />
-        <button onClick={cartHandler} id="salwaar">
+        <button
+          onClick={() => {
+            setSacount(sacont + 1);
+            setCart(cart + 1);
+          }}
+        >
           Add to cart<div>{sacont} </div>
         </button>
       </div>
@@ -258,7 +281,12 @@ export default function App() {
           <a href="https://amzn.to/3rrbVbr"> Shop Now </a>
         </button>
         <br />
-        <button onClick={cartHandler} id="purse">
+        <button
+          onClick={() => {
+            setPcount(pcont + 1);
+            setCart(cart + 1);
+          }}
+        >
           Add to cart <div>{pcont} </div>
         </button>
       </div>
