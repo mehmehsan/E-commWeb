@@ -173,6 +173,7 @@ a {
 }
 button {
   border-radius: 0.5rem;
+  outline: none;
 }
 
 #outerSwitch {

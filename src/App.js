@@ -43,6 +43,7 @@ export default function App() {
       x.className = "navigation";
     }
   }
+
   function darkMode() {
     if (cnt % 2 !== 0) {
       setBck("black");
@@ -54,6 +55,10 @@ export default function App() {
       setTxtalign("left");
     }
     setCnt(cntt++);
+  }
+
+  function cartHandler() {
+    setCart(cart + 1);
   }
   return (
     <div className="App" style={{ color: fnt }}>
@@ -132,6 +137,7 @@ export default function App() {
       <button id="amznPage">
         <a href="https://amzn.to/2LfWK5c"> View Deals </a>
       </button>
+
       <div id="item1">
         <img
           className="watches"
@@ -145,6 +151,8 @@ export default function App() {
           {" "}
           <a href="https://amzn.to/2YKtMxq"> Shop Now </a>
         </button>
+        <br />
+        <button onClick={cartHandler}> Add to cart</button>
       </div>
       <div id="item2">
         <img
@@ -159,6 +167,8 @@ export default function App() {
           {" "}
           <a href="https://amzn.to/36DzaHi"> Shop Now </a>
         </button>
+        <br />
+        <button onClick={cartHandler}> Add to cart</button>
       </div>
       <div id="item3">
         <img
@@ -173,6 +183,8 @@ export default function App() {
           {" "}
           <a href="https://amzn.to/3rcZIXE"> Shop Now </a>
         </button>
+        <br />
+        <button onClick={cartHandler}> Add to cart</button>
       </div>
       <div id="item4">
         <img
@@ -187,6 +199,8 @@ export default function App() {
           {" "}
           <a href="https://amzn.to/39LrCE2"> Shop Now </a>
         </button>
+        <br />
+        <button onClick={cartHandler}> Add to cart</button>
       </div>
       <div id="item5">
         <img
@@ -201,6 +215,8 @@ export default function App() {
           {" "}
           <a href="https://amzn.to/3axWLdp"> Shop Now </a>
         </button>
+        <br />
+        <button onClick={cartHandler}> Add to cart</button>
       </div>
       <div id="item6">
         <img
@@ -215,6 +231,8 @@ export default function App() {
           {" "}
           <a href="https://amzn.to/3rrbVbr"> Shop Now </a>
         </button>
+        <br />
+        <button onClick={cartHandler}> Add to cart</button>
       </div>
       <small style={{ display: "none" }}>
         {" "}
