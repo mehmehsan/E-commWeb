@@ -193,7 +193,7 @@ button {
 #innerSwitch {
   height: 1rem;
   width: 1rem;
-  background: grey;
+  background: #f9d1d1;
   border-radius: 2.4rem;
   outline: none;
 }
